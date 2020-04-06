@@ -15,12 +15,13 @@ import org.springframework.format.annotation.DateTimeFormat;
 public class User {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Integer uid;	
-	private String name="龙珊";
+	private Integer uid;
+	private String name="何辉";
+	private String name2="龙珊";//手动解决冲突
 	private String uname;
 	private String upwd;
 	private String sex;
-	private String name="何辉";
+
 	
 	@DateTimeFormat(pattern = "yyyy-MM-dd")
 	private Date birthday;
