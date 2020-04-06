@@ -16,10 +16,14 @@ public class User {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer uid;	
-	
+	private String name2="龙珊";
 	private String uname;
 	private String upwd;
 	private String sex;
+	private String name4="陈良吉name";
+
+	private String name1="何辉";
+
 	private String name3="周怡珊";
 
 	@DateTimeFormat(pattern = "yyyy-MM-dd")
