@@ -20,6 +20,7 @@ public class Menu {
 	private Integer pid;
 	private String name;
 	private String name1="周怡珊";
+	private String name2="何辉";
 	private String leaf;
 	private String description;
 	private String url;
