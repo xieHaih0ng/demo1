@@ -20,7 +20,8 @@ public class User {
 	private String uname;
 	private String upwd;
 	private String sex;
-	private String name="周怡珊";
+	private String name3="周怡珊";
+
 	@DateTimeFormat(pattern = "yyyy-MM-dd")
 	private Date birthday;
 	private String photo;
