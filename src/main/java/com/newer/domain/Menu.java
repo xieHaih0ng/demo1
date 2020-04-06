@@ -19,6 +19,7 @@ public class Menu {
 	private Integer id;
 	private Integer pid;
 	private String name;
+	private String name2="何辉";
 	private String leaf;
 	private String description;
 	private String url;
