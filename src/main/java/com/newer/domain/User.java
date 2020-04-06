@@ -15,8 +15,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 public class User {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Integer uid;	
-	private String name2="龙珊";
+	private Integer uid;
 	private String uname;
 	private String upwd;
 	private String sex;
