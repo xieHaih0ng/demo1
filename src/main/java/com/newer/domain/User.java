@@ -16,7 +16,7 @@ public class User {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer uid;	
-	
+	private stringname="龙珊";
 	private String uname;
 	private String upwd;
 	private String sex;
