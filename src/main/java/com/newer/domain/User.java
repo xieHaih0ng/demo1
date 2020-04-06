@@ -21,7 +21,9 @@ public class User {
 	private String upwd;
 	private String sex;
 	private String name1="何辉";
-	
+
+	private String name3="周怡珊";
+
 	@DateTimeFormat(pattern = "yyyy-MM-dd")
 	private Date birthday;
 	private String photo;
